@@ -28,7 +28,7 @@ const GenerateQRCode = () => {
     <div className='qrApp'>
     
       <div className='fromaera text-center m-3'>
-        <input className='inputaera' type="text" placeholder="e.g. https://google.com" value={url} onChange={(e) =>seturl(e.target.value)} />
+        <input className='inputaera' type="text" placeholder="  e.g. https://google.com" value={url} onChange={(e) =>seturl(e.target.value)} />
         <button id='qrbtn' className='btn btn-danger' onClick={GenerateQRCode}>Generate</button>
       </div>
        
